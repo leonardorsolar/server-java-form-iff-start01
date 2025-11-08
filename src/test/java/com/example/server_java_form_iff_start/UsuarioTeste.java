@@ -19,6 +19,10 @@ public class UsuarioTeste {
         String email = usuario.getEmail();
         String senha = usuario.getSenha();
 
+        System.out.println("Nome: " + nome);
+        System.out.println("Email: " + email);
+        System.out.println("Senha: " + senha);
+
         // Then (Então)
         // Então os dados devem ser os mesmos que os fornecidos ao criar o usuário
         assertEquals("John Doe", nome, "O nome do usuário deve ser 'John Doe'");
